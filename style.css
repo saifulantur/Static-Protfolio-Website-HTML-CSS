@@ -1,0 +1,159 @@
+
+#profile {
+
+  border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.container {
+
+  position: center;
+  top: 20px;
+  padding:20px;
+}
+
+#my-div1 {
+     font-family: "Times New Roman", Times, serif;
+  /*  top: 70px;*/
+    font-size: 20px;
+}
+#Project, .w3-hover-pale-blue:hover {
+    color: #000!important;
+    background-color: #ddffff!important;
+    top: 10px;
+
+    
+}
+#project_text{
+	font-size: 20px;
+	position: center;
+}
+#project_paragraph{
+	 font-family: "Times New Roman", Times, serif;
+	top: 20px;
+	font-size: 20px;
+}
+#Education, .w3-hover-pale-blue:hover {
+    color: #000!important;
+    background-color: #ddffff!important;
+    top: 10px;
+
+    
+}
+#education_text{
+	font-size: 20px;
+	position: center;
+}
+
+#table{
+	margin-top: 20px;
+	padding: 10px;
+	
+}
+
+#resume{
+	padding: 20px;
+
+}
+#skills{
+		margin-top: 20px;
+		padding: 10px;
+}
+
+/*------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* ------------------------------------------------- */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #343A40;
+  text-align: center;
+  
+}
+/**
+ * contact Styles
+ */
+ #contact{
+ 	font-size: 20px;
+ 	color: white;
+ 	font-family: "Helvetica Neue", Arial, sans-serif;
+ 	text-align: left;
+ 	margin-left: 30px;
+ }
